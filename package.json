@@ -1,11 +1,18 @@
 {
   "name": "@digioi/client-only",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/ClientOnly.js",
   "scripts": {
     "build": "tsc --build tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:digioi/ClientOnly.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [],
   "author": "",
